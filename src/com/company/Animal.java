@@ -14,11 +14,15 @@ public class Animal { //
         return noOfLegs;
     }
 
-    public String getColor() {
+    public String getName() {
         return name;
     }
 
     public boolean getEatsMeat() {
         return eatsMeat;
+    }
+
+    public void printDetails() {
+        System.out.println("Name: " + name + " " + "Eats meat? " + eatsMeat + "Count of Legs: " + noOfLegs);
     }
 }

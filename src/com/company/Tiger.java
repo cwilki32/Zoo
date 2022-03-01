@@ -15,4 +15,10 @@ public class Tiger extends Animal{
     public boolean isHasStripes() {
         return hasStripes;
     }
+
+    @Override
+    public void printDetails() {
+        super.printDetails();
+            System.out.println("Animal Type: " + this.getClass().getSimpleName() + "\n" + "Color: " + color + " " + "Has stripes? " + hasStripes);
+    }
 }
